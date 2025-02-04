@@ -1,0 +1,11 @@
+header {
+  color: deepskyblue;
+}
+
+/* Пример применения параметров шрифта ко всему сайту */
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  color: purple;
+  letter-spacing: 2px;
+}

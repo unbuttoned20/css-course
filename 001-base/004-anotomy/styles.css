@@ -1,0 +1,10 @@
+/* Селектор: свойство + значение */
+
+p {
+  color: teal;
+}
+
+a {
+  color: hotpink;
+  font-size: 16px;
+}
