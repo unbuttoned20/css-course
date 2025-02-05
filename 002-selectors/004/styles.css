@@ -1,3 +1,10 @@
+/* 
+
+Тут нужно комментировать лишний код, потому что стили конфликтуют!
+(P.S. Больше я в одном файле писать не буду) :D
+
+*/
+
 /* Селектор по атрибуту */
 
 [placeholder] {
@@ -95,4 +102,45 @@ h2,
 h3,
 h4 {
   color: darkred;
+}
+
+/* Селектор для двух или больше классов */
+
+.button {
+  background-color: lightgray;
+}
+
+.button.is-active {
+  background-color: coral;
+}
+
+/* Селектор для прямого дочернего элемента */
+section>h2 {
+  color: red;
+}
+
+/* Селектор для следующего на той же вложенности тега */
+
+h2+p {
+  color: red;
+}
+
+.error-message {
+  color: red;
+  visibility: hidden;
+}
+
+.input.is-invalid+.error-message {
+  visibility: visible;
+}
+
+/* Смежный селектор, то есть для всех последующих тегов */
+h2~p {
+  color: red;
+}
+
+/* Комбинации тегов */
+
+div#id.class {
+  color: red;
 }
