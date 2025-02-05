@@ -1,0 +1,98 @@
+/* Селектор по атрибуту */
+
+[placeholder] {
+  border: 3px solid darkturquoise;
+}
+
+[type="number"] {
+  box-shadow: 3px 3px 3px 3px indianred;
+}
+
+[type="tel"] {
+  box-shadow: 3px 3px 3px 3px #5c7ccd;
+}
+
+[type=email] {
+  box-shadow: 3px 3px 3px 3px #7bf178;
+}
+
+/* Если есть в значении */
+
+[href*="hh.ru"] {
+  padding-left: 1.2em;
+  background: url(hh.png) 0 50%/1em no-repeat;
+}
+
+[href*="habr.com"] {
+  padding-left: 1.2em;
+  background: url(habr.png) 0 50%/1em no-repeat;
+}
+
+/* Если начинается со значения */
+
+[href^="http://"] {
+  color: red;
+}
+
+[href^="https://"] {
+  color: green;
+}
+
+/* Если заканчивается на значение */
+
+[href$=".ru"] {
+  background-image: linear-gradient(white 33%,
+      blue 33%,
+      blue 66%,
+      red 66%);
+}
+
+[href$=".fr"] {
+  background-image: linear-gradient(to right,
+      blue 33%,
+      white 33%,
+      white 66%,
+      red 66%);
+}
+
+[href$=".de"] {
+  background-image: linear-gradient(black 33%,
+      red 33%,
+      red 66%,
+      yellow 66);
+}
+
+/* Селектор по отдельному слову */
+
+[alt~="кот"] {
+  border: 10px dashed forestgreen;
+}
+
+/* Селектор по точному значению или началу значения атрибута отдельным словом*/
+
+[class|="warning"] {
+  color: orange;
+}
+
+/* Селектор, игнорирующий регистр */
+
+[alt*="cat" i] {
+  border: 10px dashed cornflowerblue;
+}
+
+/* Селектор потомка */
+
+section p {
+  color: seagreen;
+}
+
+section p span {
+  color: darkred;
+}
+
+/* Группировка селекторов */
+h2,
+h3,
+h4 {
+  color: darkred;
+}
