@@ -1,0 +1,54 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.box-1 {
+  padding: 30px;
+  background-color: lightgreen;
+}
+
+.box-2 {
+  padding: 30px 100px;
+  background-color: lightgrey;
+}
+
+.box-3 {
+  padding: 30px 100px 40px;
+  background-color: lightgreen;
+}
+
+.box-4 {
+  padding: 30px 40px 50px 60px;
+  background-color: lightgrey;
+}
+
+.box-5 {
+  padding-left: 30px;
+  background-color: lightgreen;
+}
+
+.box-6 {
+  padding-right: 30px;
+  background-color: lightgrey;
+}
+
+.box-7 {
+  padding-top: 30px;
+  background-color: lightgreen;
+}
+
+.box-8 {
+  padding-bottom: 30px;
+  background-color: lightgrey;
+}
+
+.box-9 {
+  padding-inline: 30px;
+  background-color: lightgreen;
+}
+
+.box-10 {
+  padding-block: 30px;
+  background-color: lightgrey;
+}
