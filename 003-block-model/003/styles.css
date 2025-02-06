@@ -1,0 +1,15 @@
+/* Тип отображения */
+
+/* Блочно-строчный */
+
+span {
+  display: inline-flex;
+  width: 100px;
+  height: 200px;
+  border: 5px solid indianred;
+}
+
+/* Скрытие со страницы */
+.box-4 {
+  display: none;
+}
