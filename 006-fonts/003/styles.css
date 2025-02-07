@@ -1,0 +1,25 @@
+/* Директива */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../static/roboto/roboto-v47-cyrillic_latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../static/roboto/roboto-v47-cyrillic_latin-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.custom-font {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}

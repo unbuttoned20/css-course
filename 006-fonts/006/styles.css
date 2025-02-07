@@ -1,0 +1,24 @@
+body {
+  font: 700 italic normal 16px/1.5 Arial, sans-serif;
+
+  /* Аналогично */
+  /* 
+    Начертание шрифта (числа, ключевые слова)
+    font-weight: 700;
+
+    font-style: italic;
+    font-stretch: normal;
+    font-variant: normal;
+
+    Размер шрифта (по умолчанию часто 16px)
+    font-size: 16px;
+
+    Междустрочный интервал 
+    (line-hight в px / font-size в px) и округлить до двух знаков после запятой
+    (проценты / 100) и округлить до двух знаков после запятой
+    line-height: 1.5;
+    
+    Семейство шрифта, несколкьо слов = двойные кавычки
+    font-family: Arial, sans-serif;
+  */
+}
