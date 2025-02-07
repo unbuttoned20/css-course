@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Альфаканал - Прозрачность */
+
+.red-color-opacity {
+  color: rgb(255 0 0 / 0.75);
+}
+
+.green-color-opacity {
+  color: rgb(0 255 0 / 0.5);
+}
+
+.blue-color-opacity {
+  color: rgb(0 0 255 / 0.25);
+}

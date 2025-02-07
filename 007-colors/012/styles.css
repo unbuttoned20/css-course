@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Прозрачность */
+
+.red-color-opacity {
+  color: hsl(0 100% 50% / 0.75);
+}
+
+.green-color-opacity {
+  color: hsl(120 100% 50% / 0.5);
+}
+
+.blue-color-opacity {
+  color: hsl(240 100% 50% / 0.25);
+}

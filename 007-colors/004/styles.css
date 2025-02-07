@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.red-color {
+  color: red;
+}
+
+.magenta-color {
+  color: magenta;
+}
+
+/* Список всех цветов: https://www.w3.org/wiki/CSS/Properties/color/keywords */

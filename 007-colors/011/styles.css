@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.red-color {
+  color: hsl(0 100% 50%);
+}
+
+.green-color {
+  color: hsl(120 100% 50%);
+}
+
+.blue-color {
+  color: hsl(240 100% 50%);
+}

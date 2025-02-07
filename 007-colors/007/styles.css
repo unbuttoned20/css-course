@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.red-color {
+  color: rgb(255, 0, 0);
+}
+
+.blue-color-opacity {
+  color: rgba(0, 0, 255, 0.5);
+}

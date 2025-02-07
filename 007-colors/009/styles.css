@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.red-color {
+  color: #F00;
+}
+
+.green-color {
+  color: #0F0;
+}
+
+.blue-color {
+  color: #00F;
+}
+
+.dirty-yellow-color {
+  color: #FF0;
+}

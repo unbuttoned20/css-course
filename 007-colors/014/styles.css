@@ -1,0 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.current-color-border {
+  color: orange;
+  border: 2px solid currentColor;
+}

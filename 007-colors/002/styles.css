@@ -1,0 +1,7 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+
+  /* Наследуемое свойство */
+  color: red;
+}

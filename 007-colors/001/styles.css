@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 200px;
+  height: 200px;
+}
+
+.red-text {
+  color: red;
+}
+
+.yellow-bg {
+  background-color: rgb(255 255 0);
+}
+
+.green-border {
+  border: 2px solid #00FF00;
+}
+
+.pink-outline {
+  outline: 2px solid #F6A7FFC6;
+}
+
+.blue-shadow {
+  box-shadow: 0 0 0 5px lightskyblue;
+}

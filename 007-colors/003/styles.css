@@ -1,0 +1,27 @@
+.keyword-color {
+  color: red;
+}
+
+.rgb-color {
+  color: rgb(0, 0, 255);
+}
+
+.hex-color {
+  color: #63C20E;
+}
+
+.hsl-color {
+  color: hsl(0, 70%, 63%);
+}
+
+.hwb-color {
+  color: hwb(265deg 110 325);
+}
+
+.lch-color {
+  color: lch(50% 110 325);
+}
+
+.lab-color {
+  color: lab(85% 8.8 113.4);
+}
