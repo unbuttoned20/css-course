@@ -1,0 +1,32 @@
+.box {
+  width: 500px;
+  height: 500px;
+
+  /* Обобщенное свойство */
+  background: lightcoral url('../../static/images/meepo.png') repeat-x 0 0/300px fixed padding-box;
+
+  /* 
+    Свойства отдельно
+
+    Фоновый цвет
+    background-color: lightcoral;
+
+    Фоновое изображение
+    background-image: url('../../static/images/meepo.png');
+
+    Повторение фона
+    background-repeat: repeat-x;
+
+    Позиция фона
+    background-position: 0 0;
+
+    Размер фона
+    background-size: 300px;
+
+    Режим фона при прокрутке
+    background-attachment: fixed;
+
+    Область применения
+    background-clip: padding-box; 
+  */
+}

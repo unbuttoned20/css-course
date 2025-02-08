@@ -1,0 +1,6 @@
+.box {
+  width: 600px;
+  height: 600px;
+  background-color: lightskyblue;
+  background-image: url('../../static/images/img.png'), url('../../static/images/meepo.png');
+}
