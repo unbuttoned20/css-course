@@ -1,0 +1,40 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightpink;
+  margin: 50px;
+  border-style: solid;
+  border-color: deepskyblue;
+}
+
+.box-1 {
+  /* Почти все единицы кроме процентов */
+  border-width: 10px;
+}
+
+.box-2 {
+  /* Обычно 2px */
+  border-width: thin;
+}
+
+.box-3 {
+  /* Обычно 4px */
+  border-width: medium;
+}
+
+.box-4 {
+  /* Обычно 6px */
+  border-width: think;
+}
+
+.box-5 {
+  border-width: 10px 20px;
+}
+
+.box-6 {
+  border-width: 10px 20px 30px;
+}
+
+.box-7 {
+  border-width: 10px 20px 30px 40px;
+}

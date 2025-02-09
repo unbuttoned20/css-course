@@ -1,0 +1,14 @@
+div {
+  width: 100px;
+  height: 100px;
+  border-color: lightpink;
+  border: 10px solid deepskyblue;
+  outline: 5px solid gold;
+
+  /* 
+    Отдельными свойствами:
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: gold;
+  */
+}

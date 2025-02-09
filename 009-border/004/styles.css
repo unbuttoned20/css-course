@@ -1,0 +1,36 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: lightpink;
+  border-width: 10px;
+  border-style: solid;
+  margin: 50px;
+}
+
+.box-1 {
+  border-color: deepskyblue;
+}
+
+.box-2 {
+  border-color: deepskyblue tomato;
+}
+
+.box-3 {
+  border-color: deepskyblue tomato slateblue;
+}
+
+.box-4 {
+  border-color: deepskyblue tomato slateblue cadetblue;
+}
+
+.box-5 {
+  border-top-color: deepskyblue;
+  border-right-color: tomato;
+  border-bottom-color: slateblue;
+  border-left-color: cadetblue;
+}
+
+.box-6 {
+  border-block-color: deepskyblue;
+  border-inline-color: tomato;
+}

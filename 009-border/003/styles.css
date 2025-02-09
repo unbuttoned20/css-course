@@ -1,0 +1,56 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightpink;
+  border-width: thick;
+  border-color: deepskyblue;
+  margin: 50px;
+}
+
+.box-1 {
+  border-style: none;
+}
+
+.box-2 {
+  border-style: solid;
+}
+
+.box-3 {
+  border-style: dashed;
+}
+
+.box-4 {
+  border-style: dotted;
+}
+
+.box-5 {
+  border-style: double;
+}
+
+.box-6 {
+  border-style: groove;
+}
+
+.box-7 {
+  border-style: ridge;
+}
+
+.box-8 {
+  border-style: inset;
+}
+
+.box-9 {
+  border-style: outset;
+}
+
+.box-10 {
+  border-top-style: solid;
+  border-right-style: dashed;
+  border-bottom-style: dotted;
+  border-left-style: none;
+}
+
+.box-11 {
+  border-block-style: groove;
+  border-inline-style: ridge;
+}

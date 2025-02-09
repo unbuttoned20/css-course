@@ -1,0 +1,9 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightpink;
+  border: 10px solid deepskyblue;
+
+  /* Фактический размер 100x100 px */
+  box-sizing: border-box;
+}

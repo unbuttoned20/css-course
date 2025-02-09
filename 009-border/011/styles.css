@@ -1,0 +1,8 @@
+body {
+  background-color: cornflowerblue;
+}
+
+img {
+  /* Просмотр остальных значений через DevTools, т.к. это  намного удобнее! */
+  filter: drop-shadow(15px 15px 15px red);
+}
