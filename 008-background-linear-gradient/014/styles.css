@@ -1,0 +1,10 @@
+.box {
+  width: 200px;
+  height: 200px;
+
+  /* Неправильно, переопределит другие подсвойства */
+  background: red;
+
+  /* Правильно */
+  background-color: red;
+}
