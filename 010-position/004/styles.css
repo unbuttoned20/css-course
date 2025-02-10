@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: lightskyblue;
+  position: static;
+  
+  /* 
+    При статическом позиционированни игнорируются:
+    top: 50px;
+    left: 100px;
+    z-index: 333;
+  */
+}

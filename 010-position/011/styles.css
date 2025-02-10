@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serfif;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightskyblue;
+  position: relative;
+}
+
+.inner {
+  background-color: lightcoral;
+  position: absolute;
+  inset: 0;
+  /*
+    Общее свойство для:
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  */
+}

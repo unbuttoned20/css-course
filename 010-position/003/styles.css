@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  /* Значение по умолчанию */
+  position: static;
+}
+
+p {
+  /* Значение по умолчанию */
+  position: static;
+}
+
+button {
+  /* Значение по умолчанию */
+  position: static;
+}

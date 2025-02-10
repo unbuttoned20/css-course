@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 600px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  width: 100px;
+  height: 200px;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  position: sticky;
+  top: 10px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  list-style-type: none;
+}
+
+.box {
+  margin: 20px;
+  width: 100px;
+  height: 200px;
+  background-color: lightgreen;
+  border: 2px solid black;
+}
