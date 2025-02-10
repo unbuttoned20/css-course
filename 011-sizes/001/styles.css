@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Относительные величины */
+
+.box-1 {
+  background-color: lightskyblue;
+  /* Проценты от ширины окна браузера */
+  width: 50vw;
+  height: 100px;
+}
+
+.box-2 {
+  background-color: lightpink;
+  font-size: 30px;
+  /* Величина относительно размера шрифта */
+  width: 15em;
+  height: 100px;
+}
+
+/* Абсолютные величины */
+
+.box-3 {
+  background-color: lightgreen;
+  width: 200px;
+  height: 100px;
+}
+
+.box-4 {
+  background-color: lightsalmon;
+  /* Страницы на печать */
+  width: 30mm;
+  height: 100px;
+}
