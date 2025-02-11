@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box-1 {
+  background-color: lightskyblue;
+  height: 50%;
+
+  /* Тут будет от высоты браузерного окна */
+  position: absolute;
+}

@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  height: 200px;
+  background-color: pink;
+}
+
+.box-1 {
+  background-color: lightskyblue;
+  height: 50%;
+}

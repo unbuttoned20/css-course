@@ -1,0 +1,9 @@
+body {
+  font-size: 24px;
+}
+
+.box {
+  width: 4em;
+  height: 3em;
+  background-color: lightskyblue;
+}

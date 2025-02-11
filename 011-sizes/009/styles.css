@@ -1,0 +1,19 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.small-font-size {
+  font-size: 0.75rem;
+}
+
+.base-font-size {
+  font-size: 1.6rem;
+}
+
+.big-font-size {
+  font-size: 2.5rem;
+}

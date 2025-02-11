@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 100vh;
+  background: url("../../static/images/fox.jpg") center/cover no-repeat;
+}

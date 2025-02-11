@@ -1,0 +1,11 @@
+body {
+  font-size: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1 span {
+  font-size: 0.5em;
+}
