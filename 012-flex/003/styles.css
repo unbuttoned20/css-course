@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  gap: 10px;
+  padding: 10px;
+  background-color: deepskyblue;
+  display: flex;
+  /* 
+    Значение по умолчанию:
+    flex-direction: row;
+  */
+}
+
+.flex-element {
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}

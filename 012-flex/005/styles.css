@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 600px;
+}
+
+.flex-container {
+  gap: 10px;
+  height: 400px;
+  padding: 10px;
+  background-color: deepskyblue;
+  display: flex;
+}
+
+.flex-element {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.flex-container-first {
+  flex-flow: row wrap-reverse;
+}
+
+.flex-container-second {
+  flex-flow: column wrap;
+}

@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  column-gap: 10px;
+  padding: 10px;
+  background-color: lightskyblue;
+  display: flex;
+}
+
+.flex-element {
+  background-color: lightgreen;
+  padding: 10px;
+}
