@@ -3,20 +3,22 @@ body {
 }
 
 .flex-container {
-  gap: 10px;
-  height: 400px;
   padding: 10px;
   background-color: lightskyblue;
   display: flex;
+  gap: 10px;
 }
 
 .flex-element {
   width: 100px;
-  height: 100px;
   padding: 10px;
   background-color: lightgreen;
 }
 
-.wide {
-  flex-grow: 1;
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.align-items-baseline {
+  align-items: baseline;
 }

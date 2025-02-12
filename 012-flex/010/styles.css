@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  gap: 10px;
+  padding: 10px;
+  background-color: deepskyblue;
+  display: flex;
+}
+
+.flex-element {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.order-first {
+  order: -1;
+  background-color: tomato;
+}
+
+.order-last {
+  order: 1;
+  background-color: orange;
+}
+
+.order-1 {
+  order: 1
+}
+
+.order-2 {
+  order: 2
+}
+
+.order-3 {
+  order: 3
+}
+
+.order-4 {
+  order: 4
+}

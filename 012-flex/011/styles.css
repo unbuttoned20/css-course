@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  gap: 10px;
+  padding: 10px;
+  background-color: deepskyblue;
+  display: flex;
+}
+
+.flex-element {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.justify-content-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}

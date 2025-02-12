@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  width: 600px;
 }
 
 .flex-container {
@@ -11,12 +12,20 @@ body {
 }
 
 .flex-element {
-  width: 100px;
+  width: 300px;
   height: 100px;
   padding: 10px;
   background-color: lightgreen;
+  /* 
+    Значение по умолчанию:
+    flex-shrink: 1;
+  */
 }
 
-.wide {
-  flex-grow: 1;
+.narrow {
+  flex-shrink: 2;
+}
+
+.real-size {
+  flex-shrink: 0;
 }

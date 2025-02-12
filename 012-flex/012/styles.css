@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  height: 150px;
+  padding: 10px;
+  background-color: lightskyblue;
+  display: flex;
+  gap: 10px;
+  /* 
+    Значение по умолчанию:
+    align-items: stretch;
+  */
+}
+
+.flex-element {
+  width: 100px;
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
