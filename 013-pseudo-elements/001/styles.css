@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.with-before::before {
+  content: "(-:";
+  color: cornflowerblue;
+}
+
+.with-after::after {
+  content: ":-)";
+  color: green;
+}
+
+.with-red-placeholder::placeholder {
+  color: red;
+}
+
+.with-file-selector-button::file-selector-button {
+  background-color: lightgreen;
+  font-weight: 700;
+  border: 2px solid darkblue;
+}
+
+.with-first-letter::first-letter {
+  font-size: 3em;
+}
+
+.with-first-line::first-line {
+  text-decoration: underline;
+}
+
+.with-selection::selection {
+  background-color: pink;
+}
+
+.with-marker::marker {
+  color: orange;
+}

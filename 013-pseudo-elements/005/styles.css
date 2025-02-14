@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.special-first-line::first-line {
+  text-transform: uppercase;
+  color: indianred;
+  background-color: skyblue;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 0.75);
+}

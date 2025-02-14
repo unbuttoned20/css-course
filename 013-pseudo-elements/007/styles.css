@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.red-marker::marker {
+  color: red;
+}
+
+.smile-marker::marker {
+  content: "🗿";
+}

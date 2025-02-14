@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.with-custom-file-button::file-selector-button {
+  height: 32px;
+  padding-inline: 12px;
+  color: #418DFF;
+  background-color: #DAD563;
+  border: 3px solid #132954;
+  border-radius: 10px;
+}

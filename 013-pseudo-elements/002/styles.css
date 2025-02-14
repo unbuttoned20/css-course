@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.input::placeholder {
+  color: red;
+  background-color: lightgray;
+}
+
+.textarea::placeholder {
+  color: green;
+  font-weight: 700;
+}
+
+::placeholder {
+  color: blue;
+  font-weight: 700;
+}

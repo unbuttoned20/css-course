@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.custom-selection::selection,
+.custom-selection code::selection {
+  color: whitesmoke;
+  background-color: coral;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: underline;
+}
