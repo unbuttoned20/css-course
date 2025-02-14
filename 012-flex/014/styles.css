@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  height: 200px;
+  padding: 10px;
+  background-color: lightskyblue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flex-element {
+  width: 200px;
+  padding: 10px;
+  background-color: lightgreen;
+  /* 
+    Значение по умолчанию:
+    align-content: stretch;
+  */
+}
+
+.align-content-flex-start {
+  align-content: flex-start;
+}
+
+.align-content-flex-end {
+  align-content: flex-end;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.align-content-space-between {
+  align-content: space-between;
+}
+
+.align-content-space-around {
+  align-content: space-around;
+}
+
+.align-content-space-evenly {
+  align-content: space-evenly;
+}
